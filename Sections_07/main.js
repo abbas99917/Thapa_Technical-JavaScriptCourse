@@ -33,16 +33,21 @@
 // }
 
 
-// 02 :  write a functions to count the number of vowels in a strings?
+// // 02 :  write a functions to count the number of vowels in a strings?
 
-const countVowels = (str) =>{
-    let vowels = "aeiou"
-    let count = 0;
-    for(let char of str ){
-        if(vowels.includes(char)){
-            count++
-        }
-    }
-    return count
-}   
-console.log(countVowels("photosynthesis"))
+// const countVowels = (str) =>{
+//     let vowels = "aeiou"
+//     let count = 0;
+//     for(let char of str ){
+//         if(vowels.includes(char)){
+//             count++
+//         }
+//     }
+//     return count
+// }   
+// console.log(countVowels("photosynthesis"))
+
+// math.ceil:  return the value of x rounded up to its nearest integers.
+
+let ceil = Math.ceil(4.6)
+console.log(ceil)
